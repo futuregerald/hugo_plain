@@ -1,2 +1,2 @@
-/* /:splat 200! Role=admin,editor
-/* /404.html 404!
+/* 200! Role=admin,editor
+/* /404.html 401!
