@@ -14,8 +14,6 @@
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
-
-    <link href='http://example.org/dist/main.css' rel='stylesheet' type="text/css" />
     
       
     
@@ -97,6 +95,11 @@ var options = {
   oidcConformant: true,
   auth: {
     audience: 'https://futuregerald.auth0.com/userinfo',
+    redirectUrl: 'https://hugo-plain-testing.netlify.com/',
+      responseType: 'code',
+      params: {
+        scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
+      }
   }
 }
   </script>
