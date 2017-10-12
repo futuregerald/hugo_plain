@@ -87,8 +87,20 @@
       </div>
     </div>
   </header>
-
-
+  <script>
+  // Initializing our Auth0Lock
+var lock = new Auth0Lock(
+  'fhsE1c7DmBXTaeSaY3hYFsabiQo6N8Se',
+  'futuregerald.auth0.com'
+);
+var options = {
+  oidcConformant: true,
+  auth: {
+    audience: 'https://futuregerald.auth0.com/userinfo',
+  }
+}
+  </script>
+  
     <main class="pb7" role="main">
       
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
@@ -121,6 +133,7 @@
 </footer>
 
     <script src="http://example.org/dist/app.bundle.js" async></script>
+    <script src="https://cdn.auth0.com/js/lock/10.x.y/lock.min.js"></script>
 
   </body>
 </html>
