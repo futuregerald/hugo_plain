@@ -1,1 +1,2 @@
-/* foo=:foo bar=:bar https://requestb.in/1fgkeh41:splat?foo=:foo&bar=:bar 302
+/redirect/* foo=:foo bar=:bar https://requestb.in/1fgkeh41:splat?foo=:foo&bar=:bar 302
+/poop/* https://google.com/:splat 302
